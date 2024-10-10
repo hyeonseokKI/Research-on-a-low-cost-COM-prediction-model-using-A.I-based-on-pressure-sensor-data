@@ -1,2 +1,9 @@
 # Research-on-a-low-cost-COM-prediction-model-using-A.I-based-on-pressure-sensor-data
 압력센서 데이터를 기반으로 인공지능을 이용한 저가형 COM 예측 모델
+
+Summary
+
+Research on a low-cost COM prediction model using A.I based on pressure sensor data
+
+   The Center of Mass (COM) is the point where the mass of an object is concentrated, a crucial concept for understanding the motion and stability of objects. Accurate analysis of the COM contributes to various fields such as motion analysis, stability assessment, and optimization of movement techniques. In particular, in the field of biomechanics, such as the analysis of human gait or posture control, estimating the COM is essential. While there are various methods for estimating the COM, the most accurate and widely used is acquiring the COM through a motion analysis system. However, commercialization of such systems is challenging due to the high cost, around 30 million won. This study aims to address this issue by using low-cost equipment to acquire pressure data instead of using a motion analysis system and predicting the COM based on artificial neural network models. The conventional method of obtaining the COM based on the Center of Pressure (COP) through a filtering method acquires values for the x-axis and y-axis. In contrast, this study predicts the COM for the x-axis, y-axis, and z-axis. Through experiments, data for use in artificial intelligence models were acquired, and preprocessing was carried out. Artificial neural network models, namely Random Forest (RF), Convolutional Neural Network (CNN), and Bidirectional Long Short-Term Memory (Bi-LSTM), were employed. The preprocessed data were normalized using MinMaxScaler, and each model was used to make predictions, which were then compared. Evaluation metrics, including the Correlation Coefficient (r), Root Mean Squared Error (RMSE), and relative RMSE (rRMSE), were used to assess and compare the performance of the models.
+Key word : Pressure, COM, RF, CNN, Bi-LSTM
